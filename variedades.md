@@ -1,203 +1,103 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variedades de Transplantes de Órgãos</title>
-    <style>
-        /* Estilos gerais para a página de variedades */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #fff9c4; /* Fundo amarelo claro suave */
+        background-image: linear-gradient(rgba(255, 249, 196, 0.8), rgba(255, 249, 196, 0.8)), url('https://images.unsplash.com/photo-1563206184-049b1391d470?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); /* Imagem inspiradora */
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 20px;
+    }
+    .container {
+        max-width: 900px;
+        margin: 40px auto;
+        background-color: rgba(255, 255, 255, 0.95); /* Fundo branco semitransparente */
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+    h1, h2, h3 {
+        color: #f57c00; /* Laranja escuro para títulos */
+        text-align: center;
+    }
+    h1 {
+        font-size: 2.8em;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+    p {
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    ul {
+        list-style-type: disc; /* Estilo de lista padrão */
+        margin-left: 20px;
+    }
+    li {
+        margin-bottom: 15px;
+    }
+    .emoji {
+        font-size: 1.5em;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+    .footer {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 0.9em;
+        color: #666;
+    }
+    a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.7;
-            color: #333;
-            background-color: #f0f4f8; /* Fundo azul claro específico para esta página */
-            background-image: url('https://images.unsplash.com/photo-1584515247777-7703c0369015?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); /* Mesma imagem de fundo, ou outra */
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-            margin: 0;
-            padding: 20px;
-        }
+<div class="container">
+    <h1><span class="emoji">✨</span> Variedades de Transplantes de Órgãos <span class="emoji">✨</span></h1>
 
-        .container {
-            max-width: 960px;
-            margin: 40px auto;
-            background-color: rgba(255, 255, 255, 0.95);
-            padding: 35px;
-            border-radius: 15px;
-            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
-            border: 1px solid #b3e5fc;
-        }
+    <p>
+        Órgãos são estruturas complexas com múltiplas funções vitais para o nosso corpo. Quando um órgão falha ou é acometido por uma doença grave, o transplante se torna a única esperança para o paciente. Conheça os órgãos mais comuns que podem ser transplantados:
+    </p>
 
-        h1, h2, h3 {
-            color: #0056b3;
-            text-align: center;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-        }
+    <h2>Órgãos Mais Comuns em Transplante</h2>
 
-        h1 {
-            font-size: 3.2em;
-            margin-bottom: 25px;
-        }
+    <ul>
+        <li>
+            <h3><span class="emoji">💧</span> Rim:</h3>
+            <p>Um dos transplantes mais realizados no mundo. Essencial para tratar a <strong>insuficiência renal crônica</strong>, devolvendo a qualidade de vida ao paciente.</p>
+        </li>
+        <li>
+            <h3><span class="emoji">🌿</span> Fígado:</h3>
+            <p>Crucial para a desintoxicação e metabolismo, seu transplante é indicado para doenças hepáticas graves como <strong>cirrose</strong> ou <strong>câncer de fígado</strong>.</p>
+        </li>
+        <li>
+            <h3><span class="emoji">❤️</span> Coração:</h3>
+            <p>O motor do nosso corpo. O transplante é uma opção para pacientes com <strong>insuficiência cardíaca avançada</strong>, oferecendo uma nova chance de vida.</p>
+        </li>
+        <li>
+            <h3><span class="emoji">🌬️</span> Pulmão:</h3>
+            <p>Para doenças pulmonares terminais, o transplante permite que o paciente volte a <strong>respirar com qualidade</strong>. Pode envolver um ou ambos os pulmões.</p>
+        </li>
+        <li>
+            <h3><span class="emoji">🥞</span> Pâncreas:</h3>
+            <p>Frequentemente transplantado em conjunto com o rim, é uma solução para pacientes com <strong>diabetes tipo 1</strong> e complicações renais severas.</p>
+        </li>
+        <li>
+            <h3><span class="emoji">🍎</span> Intestino:</h3>
+            <p>Um transplante mais complexo, mas que pode ser a única esperança para pacientes com <strong>falência intestinal</strong>, permitindo a absorção de nutrientes.</p>
+        </li>
+    </ul>
 
-        h2 {
-            font-size: 2.4em;
-            margin-top: 35px;
-        }
-
-        p {
-            margin-bottom: 25px;
-            text-align: justify;
-            font-size: 1.1em;
-        }
-
-        .emoji {
-            font-size: 1.6em;
-            vertical-align: middle;
-            margin: 0 8px;
-            display: inline-block;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 50px;
-            font-size: 1em;
-            color: #555;
-            border-top: 1px solid #ccc;
-            padding-top: 25px;
-        }
-
-        a {
-            color: #007bff;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s ease;
-        }
-
-        a:hover {
-            text-decoration: underline;
-            color: #0056b3;
-        }
-
-        /* Estilos específicos para a página de variedades */
-        .varieties-container {
-            background-color: #f0f4f8;
-            padding: 30px;
-            border-radius: 12px;
-            margin-top: 30px;
-            border: 1px solid #c5d6e9;
-            box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
-        }
-
-        .varieties-container h3 {
-            color: #0056b3;
-            font-size: 2.2em;
-            margin-bottom: 25px;
-            border-bottom: 3px double #0277bd;
-            padding-bottom: 15px;
-        }
-
-        .varieties-list {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .varieties-list li {
-            background-color: #ffffff;
-            margin-bottom: 18px;
-            padding: 18px 25px;
-            border-radius: 10px;
-            border-left: 8px solid #007bff;
-            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
-            font-size: 1.18em;
-            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-        }
-
-        .varieties-list li:hover {
-            transform: translateX(8px);
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-            border-left-color: #ff8f00;
-        }
-
-        .varieties-list li strong {
-            color: #0056b3;
-            display: block;
-            margin-bottom: 5px;
-            font-size: 1.2em;
-        }
-
-        .varieties-list li span {
-            font-size: 1em;
-            color: #555;
-            line-height: 1.5;
-        }
-
-        .emoji-list {
-            margin-right: 10px;
-            font-size: 1.3em;
-        }
-
-        .back-link {
-            display: block;
-            text-align: center;
-            margin-top: 30px;
-            font-size: 1.1em;
-            color: #555;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1><span class="emoji">🏥</span> Variedades de Transplantes de Órgãos <span class="emoji">🏥</span></h1>
-
-        <div class="varieties-container">
-            <h3>Órgãos Mais Comuns em Transplante</h3>
-            <ul class="varieties-list">
-                <li>
-                    <span class="emoji-list">💧</span>
-                    <strong>Rim</strong>
-                    <span>Um dos transplantes mais realizados, tratando insuficiência renal crônica.</span>
-                </li>
-                <li>
-                    <span class="emoji-list">💚</span>
-                    <strong>Fígado</strong>
-                    <span>Essencial para diversas funções metabólicas, seu transplante trata doenças hepáticas graves.</span>
-                </li>
-                <li>
-                    <span class="emoji-list">❤️</span>
-                    <strong>Coração</strong>
-                    <span>Crucial para a circulação sanguínea, o transplante é indicado para insuficiência cardíaca avançada.</span>
-                </li>
-                <li>
-                    <span class="emoji-list">🫁</span>
-                    <strong>Pulmão</strong>
-                    <span>Para doenças pulmonares terminais, o transplante permite a respiração. Pode ser de um pulmão ou de ambos.</span>
-                </li>
-                <li>
-                    <span class="emoji-list">✨</span>
-                    <strong>Pâncreas</strong>
-                    <span>Frequentemente transplantado em conjunto com o rim para pacientes com diabetes tipo 1 e insuficiência renal.</span>
-                </li>
-                <li>
-                    <span class="emoji-list">🎗️</span>
-                    <strong>Intestino</strong>
-                    <span>Um transplante mais complexo, para casos de falência intestinal.</span>
-                </li>
-            </ul>
-        </div>
-
-        <p class="back-link">
-            <a href="index.html">⬅️ Voltar para a página principal</a>
+    <div class="footer">
+        <p>
+            Cada transplante é uma nova chance de vida e esperança. Informe-se e seja um agente de conscientização! <span class="emoji">🌟</span>
         </p>
-
-        <div class="footer">
-            <p>
-                Informação é poder. Compartilhe conhecimento sobre doação e transplantes!
-            </p>
-        </div>
     </div>
-</body>
-</html>
+</div>
