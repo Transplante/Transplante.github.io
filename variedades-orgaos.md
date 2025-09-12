@@ -1,45 +1,203 @@
-# Variedades de Transplantes de Órgãos
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variedades de Transplantes de Órgãos</title>
+    <style>
+        /* Estilos gerais para a página de variedades */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
-Aqui estão alguns dos transplantes de órgãos mais comuns e informações adicionais:
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background-color: #f0f4f8; /* Fundo azul claro específico para esta página */
+            background-image: url('https://images.unsplash.com/photo-1584515247777-7703c0369015?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); /* Mesma imagem de fundo, ou outra */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            margin: 0;
+            padding: 20px;
+        }
 
----
+        .container {
+            max-width: 960px;
+            margin: 40px auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+            border: 1px solid #b3e5fc;
+        }
 
-## 🌟 Transplante de Rim 🌟
+        h1, h2, h3 {
+            color: #0056b3;
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
 
-Um dos transplantes mais realizados, o transplante renal trata a **insuficiência renal crônica**, devolvendo a qualidade de vida a quem depende de diálise. Pacientes podem receber rins de doadores falecidos ou vivos.
+        h1 {
+            font-size: 3.2em;
+            margin-bottom: 25px;
+        }
 
----
+        h2 {
+            font-size: 2.4em;
+            margin-top: 35px;
+        }
 
-## ✨ Transplante de Fígado ✨
+        p {
+            margin-bottom: 25px;
+            text-align: justify;
+            font-size: 1.1em;
+        }
 
-Essencial para diversas funções metabólicas, o transplante de fígado é indicado para casos de **doenças hepáticas graves**, como cirrose avançada, hepatite fulminante ou tumores hepáticos.
+        .emoji {
+            font-size: 1.6em;
+            vertical-align: middle;
+            margin: 0 8px;
+            display: inline-block;
+        }
 
----
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 1em;
+            color: #555;
+            border-top: 1px solid #ccc;
+            padding-top: 25px;
+        }
 
-## ❤️ Transplante de Coração ❤️
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
 
-Crucial para a circulação sanguínea, o transplante cardíaco é a última esperança para pacientes com **insuficiência cardíaca avançada**, restaurando a capacidade do coração de bombear sangue.
+        a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
 
----
+        /* Estilos específicos para a página de variedades */
+        .varieties-container {
+            background-color: #f0f4f8;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 30px;
+            border: 1px solid #c5d6e9;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+        }
 
-## 💨 Transplante de Pulmão 💨
+        .varieties-container h3 {
+            color: #0056b3;
+            font-size: 2.2em;
+            margin-bottom: 25px;
+            border-bottom: 3px double #0277bd;
+            padding-bottom: 15px;
+        }
 
-Para doenças pulmonares terminais, como fibrose cística ou enfisema grave, o transplante de pulmão permite que o paciente volte a respirar. Pode envolver a troca de um pulmão ou de ambos.
+        .varieties-list {
+            list-style: none;
+            padding-left: 0;
+        }
 
----
+        .varieties-list li {
+            background-color: #ffffff;
+            margin-bottom: 18px;
+            padding: 18px 25px;
+            border-radius: 10px;
+            border-left: 8px solid #007bff;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+            font-size: 1.18em;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+        }
 
-## 🥞 Transplante de Pâncreas 🥞
+        .varieties-list li:hover {
+            transform: translateX(8px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            border-left-color: #ff8f00;
+        }
 
-Frequentemente transplantado em conjunto com o rim (transplante combinado rim-pâncreas), o transplante de pâncreas é uma opção para pacientes com **diabetes tipo 1 e insuficiência renal terminal**, com o objetivo de controlar a diabetes e a função renal.
+        .varieties-list li strong {
+            color: #0056b3;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+        }
 
----
+        .varieties-list li span {
+            font-size: 1em;
+            color: #555;
+            line-height: 1.5;
+        }
 
-## 🍎 Transplante de Intestino 🍎
+        .emoji-list {
+            margin-right: 10px;
+            font-size: 1.3em;
+        }
 
-Um transplante mais complexo e menos comum, o transplante intestinal é reservado para casos de **falência intestinal severa**, onde o intestino não consegue absorver nutrientes adequadamente.
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1.1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span class="emoji">🏥</span> Variedades de Transplantes de Órgãos <span class="emoji">🏥</span></h1>
 
----
+        <div class="varieties-container">
+            <h3>Órgãos Mais Comuns em Transplante</h3>
+            <ul class="varieties-list">
+                <li>
+                    <span class="emoji-list">💧</span>
+                    <strong>Rim</strong>
+                    <span>Um dos transplantes mais realizados, tratando insuficiência renal crônica.</span>
+                </li>
+                <li>
+                    <span class="emoji-list">💚</span>
+                    <strong>Fígado</strong>
+                    <span>Essencial para diversas funções metabólicas, seu transplante trata doenças hepáticas graves.</span>
+                </li>
+                <li>
+                    <span class="emoji-list">❤️</span>
+                    <strong>Coração</strong>
+                    <span>Crucial para a circulação sanguínea, o transplante é indicado para insuficiência cardíaca avançada.</span>
+                </li>
+                <li>
+                    <span class="emoji-list">🫁</span>
+                    <strong>Pulmão</strong>
+                    <span>Para doenças pulmonares terminais, o transplante permite a respiração. Pode ser de um pulmão ou de ambos.</span>
+                </li>
+                <li>
+                    <span class="emoji-list">✨</span>
+                    <strong>Pâncreas</strong>
+                    <span>Frequentemente transplantado em conjunto com o rim para pacientes com diabetes tipo 1 e insuficiência renal.</span>
+                </li>
+                <li>
+                    <span class="emoji-list">🎗️</span>
+                    <strong>Intestino</strong>
+                    <span>Um transplante mais complexo, para casos de falência intestinal.</span>
+                </li>
+            </ul>
+        </div>
 
-<p align="center">
-  A doação de órgãos e tecidos é um ato de esperança e solidariedade que transforma vidas. Informe-se e seja um doador!
-</p>
+        <p class="back-link">
+            <a href="index.html">⬅️ Voltar para a página principal</a>
+        </p>
+
+        <div class="footer">
+            <p>
+                Informação é poder. Compartilhe conhecimento sobre doação e transplantes!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
