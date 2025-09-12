@@ -1,39 +1,99 @@
-<h1 align="center">🏥 Variedades de Transplantes de Órgãos 🏥</h1>
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1504674024030-4750833f97a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); /* Imagem de fundo suave */
+  background-size: cover; /* Para cobrir toda a tela */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Mantém a imagem fixa ao rolar */
+  color: #333; /* Cor do texto padrão */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
 
-<p align="center">
-  Explore os diferentes tipos de transplantes que oferecem uma nova chance de vida e bem-estar para muitos pacientes.
-</p>
+h1, h2 {
+  color: #004d40; /* Um tom de verde escuro para os títulos */
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-<div style="background-color: #e0f7fa; padding: 20px; border-radius: 10px; border-left: 5px solid #00bcd4; margin: 20px 0;">
-  <h2>Transplante de Rim 💧</h2>
-  <p>
-    O transplante de rim é o mais comum e crucial para pacientes com <strong>insuficiência renal crônica</strong>. Ele restaura a função renal, permitindo que os pacientes vivam sem a necessidade de diálise.
-  </p>
-</div>
+h1 {
+  font-size: 2.5em;
+  margin-top: 40px;
+}
 
-<div style="background-color: #fff9c4; padding: 20px; border-radius: 10px; border-left: 5px solid #ffeb3b; margin: 20px 0;">
-  <h2>Transplante de Fígado 💛</h2>
-  <p>
-    Essencial para quem sofre com <strong>cirrose, hepatite avançada ou câncer de fígado</strong>. Um novo fígado pode reverter danos graves e salvar vidas.
-  </p>
-</div>
+h2 {
+  font-size: 1.8em;
+}
 
-<div style="background-color: #fce4ec; padding: 20px; border-radius: 10px; border-left: 5px solid #e91e63; margin: 20px 0;">
-  <h2>Transplante de Coração ❤️</h2>
-  <p>
-    Uma opção vital para pacientes com <strong>insuficiência cardíaca grave</strong>. O transplante de coração devolve a esperança e a capacidade de ter uma vida ativa.
-  </p>
-</div>
+p {
+  margin-bottom: 15px;
+}
 
-<div style="background-color: #e8f5e9; padding: 20px; border-radius: 10px; border-left: 5px solid #4caf50; margin: 20px 0;">
-  <h2>Transplante de Pulmão 💨</h2>
-  <p>
-    Para condições pulmonares severas como <strong>fibrose cística ou enfisema avançado</strong>, o transplante de pulmão oferece a chance de respirar novamente com qualidade.
-  </p>
-</div>
+a {
+  color: #007bff; /* Azul padrão para links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
-<br>
+a:hover {
+  color: #0056b3; /* Azul mais escuro ao passar o mouse */
+  text-decoration: underline;
+}
 
-<p align="center">
-  ✨ <strong>Lembre-se:</strong> A doação de órgãos e tecidos é um ato de amor que transforma vidas! Informe-se e seja um doador. ✨
-</p>
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.container { /* Um container genérico para organizar o conteúdo, se precisar */
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85); /* Fundo branco com leve transparência */
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos para as caixas de conteúdo */
+.content-box {
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.content-box-orange {
+  background-color: #fff3e0; /* Laranja claro */
+  border-left: 8px solid #ff9800; /* Laranja forte na borda */
+}
+
+.content-box-teal {
+  background-color: #e0f2f1; /* Verde azulado claro */
+  border-left: 8px solid #009688; /* Verde azulado forte na borda */
+}
+
+.content-box-pink {
+  background-color: #fce4ec; /* Rosa claro */
+  border-left: 8px solid #e91e63; /* Rosa forte na borda */
+}
+
+.content-box-yellow {
+  background-color: #fff9c4; /* Amarelo claro */
+  border-left: 8px solid #ffeb3b; /* Amarelo forte na borda */
+}
+
+strong {
+  color: #004d40; /* Deixa o texto em negrito um pouco mais destacado */
+}
+
+/* Estilo para a imagem dentro do README */
+img[alt*="Imagem inspiradora"] {
+  display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
