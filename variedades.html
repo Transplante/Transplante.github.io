@@ -12,11 +12,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.7;
             color: #333;
-            background-color: #f0f4f8; /* Fundo azul claro específico para esta página */
-            background-image: url('https://images.unsplash.com/photo-1584515247777-7703c0369015?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); /* Mesma imagem de fundo, ou outra */
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
+            background-color: #e0f4f7; /* Fundo azul claro suave e confiável */
             margin: 0;
             padding: 20px;
         }
@@ -118,4 +114,95 @@
 
         .varieties-list li:hover {
             transform: translateX(8px);
-            box-shadow: 0
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            border-left-color: #ff8f00;
+        }
+
+        .varieties-list li a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .varieties-list li a strong {
+            color: #0056b3;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+        }
+
+        .varieties-list li a span {
+            font-size: 1em;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .emoji-list {
+            margin-right: 10px;
+            font-size: 1.3em;
+            vertical-align: top;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1.1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span class="emoji">🏥</span> Variedades de Transplantes de Órgãos <span class="emoji">🏥</span></h1>
+
+        <div class="varieties-container">
+            <h3>Órgãos Mais Comuns em Transplante</h3>
+            <ul class="varieties-list">
+                <li>
+                    <a href="transplante-renal.md">
+                        <span class="emoji-list">💧</span>
+                        <strong>Rim</strong>
+                        <span>Um dos transplantes mais realizados, tratando insuficiência renal crônica.</span>
+                    </a>
+                </li>
+                <li>
+                    <span class="emoji-list">💚</span>
+                    <strong>Fígado</strong>
+                    <span>Essencial para diversas funções metabólicas, seu transplante trata doenças hepáticas graves.</span>
+                </li>
+                <li>
+                    <span class="emoji-list">❤️</span>
+                    <strong>Coração</strong>
+                    <span>Crucial para a circulação sanguínea, o transplante é indicado para insuficiência cardíaca avançada.</span>
+                </li>
+                <li>
+                    <span class="emoji-list">🫁</span>
+                    <strong>Pulmão</strong>
+                    <span>Para doenças pulmonares terminais, o transplante permite a respiração. Pode ser de um pulmão ou de ambos.</span>
+                </li>
+                <li>
+                    <span class="emoji-list">✨</span>
+                    <strong>Pâncreas</strong>
+                    <span>Frequentemente transplantado em conjunto com o rim para pacientes com diabetes tipo 1 e insuficiência renal.</span>
+                </li>
+                <li>
+                    <span class="emoji-list">🎗️</span>
+                    <strong>Intestino</strong>
+                    <span>Um transplante mais complexo, para casos de falência intestinal.</span>
+                </li>
+            </ul>
+        </div>
+
+        <p class="back-link">
+            <a href="index.html">⬅️ Voltar para a página principal</a>
+        </p>
+
+        <div class="footer">
+            <p>
+                Informação é poder. Compartilhe conhecimento sobre doação e transplantes!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
