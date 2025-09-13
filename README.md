@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doação de Órgãos e Tecidos: Um Guia Completo</title>
+    <title>Doação de Órgãos e Tecidos</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
             background-color: #e0f7fa; /* Fundo azul claro suave */
-            /* Imagem de fundo com gradiente para melhorar a legibilidade */
+            /* Use um gradiente suave sobre a imagem de fundo para melhorar a legibilidade em qualquer tela */
             background-image: linear-gradient(rgba(224, 247, 250, 0.8), rgba(224, 247, 250, 0.8)), url('https://images.unsplash.com/photo-1507537528715-e72538d1e667?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
             background-size: cover;
-            background-attachment: fixed;
+            background-attachment: fixed; /* Fundo fixo para uma experiência mais agradável */
             margin: 0;
-            padding: 20px; /* Padding geral na página */
+            padding: 15px; /* Reduzido o padding geral para telas menores */
         }
 
         .container {
             max-width: 900px;
-            margin: 40px auto;
+            margin: 30px auto; /* Margem superior e inferior um pouco menor em telas maiores */
             background-color: rgba(255, 255, 255, 0.95); /* Fundo branco mais opaco para o conteúdo */
-            padding: 25px; /* Padding reduzido para telas menores */
+            padding: 25px; /* Padding interno reduzido para telas menores */
             border-radius: 15px;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
         }
@@ -33,19 +33,19 @@
         }
 
         h1 {
-            font-size: 2em; /* Fonte maior para títulos principais em mobile */
+            font-size: 2.4em; /* Tamanho de fonte ligeiramente menor para o título principal */
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         }
 
         h2 {
-            font-size: 1.6em; /* Fonte ajustada para H2 */
+            font-size: 1.9em; /* Tamanho de fonte reduzido para subtítulos */
             margin-top: 30px;
             margin-bottom: 15px;
         }
 
         h3 {
-            font-size: 1.3em; /* Fonte ajustada para H3 */
+            font-size: 1.6em; /* Tamanho de fonte reduzido para outros títulos */
             margin-top: 25px;
             margin-bottom: 10px;
         }
@@ -53,7 +53,7 @@
         p {
             margin-bottom: 20px;
             text-align: justify;
-            font-size: 1em; /* Fonte base ajustada para mobile */
+            font-size: 1.05em; /* Fonte um pouco menor para melhor ajuste */
         }
 
         .highlight {
@@ -62,7 +62,7 @@
         }
 
         .emoji {
-            font-size: 1.4em; /* Emoji um pouco maior */
+            font-size: 1.4em; /* Tamanho de emoji ajustado */
             vertical-align: middle;
             margin-right: 8px;
         }
@@ -70,27 +70,27 @@
         .section-organ,
         .section-tissue {
             background-color: #e3f2fd; /* Azul muito claro */
-            padding: 20px; /* Padding reduzido */
+            padding: 25px;
             border-radius: 12px;
-            margin-bottom: 25px; /* Margem reduzida */
-            border-left: 6px solid #0277bd; /* Borda mais fina */
+            margin-bottom: 30px;
+            border-left: 8px solid #0277bd; /* Borda azul mais forte */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         .section-tissue {
             background-color: #fff9c4; /* Amarelo muito claro */
-            border-left: 6px solid #fbc02d; /* Borda amarela mais fina */
+            border-left-color: #fbc02d; /* Borda amarela forte */
         }
 
         .cta-button {
             display: inline-block;
             background-color: #4CAF50; /* Verde vibrante */
             color: white;
-            padding: 10px 20px; /* Padding reduzido */
+            padding: 12px 25px;
             text-align: center;
             text-decoration: none;
             border-radius: 25px;
-            font-size: 1em; /* Fonte do botão ajustada */
+            font-size: 1.05em; /* Tamanho de fonte ajustado para o botão */
             font-weight: bold;
             margin-top: 15px;
             transition: background-color 0.3s ease, transform 0.3s ease;
@@ -104,8 +104,8 @@
 
         .footer {
             text-align: center;
-            margin-top: 30px; /* Margem reduzida */
-            font-size: 0.85em; /* Fonte do rodapé menor */
+            margin-top: 40px;
+            font-size: 0.9em;
             color: #666;
         }
 
@@ -119,51 +119,41 @@
             text-decoration: underline;
         }
 
-        /* Media Query para telas menores (smartphones) */
+        /* Media Query para telas menores (celulares e tablets em modo retrato) */
         @media (max-width: 768px) {
             body {
-                padding: 15px; /* Padding ainda menor em telas muito pequenas */
+                padding: 10px; /* Padding geral bem menor em telas pequenas */
             }
-
             .container {
-                padding: 20px; /* Padding interno menor */
-                margin: 20px auto; /* Margem externa menor */
+                margin: 20px auto; /* Margens menores */
+                padding: 15px; /* Padding interno bem menor */
             }
-
             h1 {
-                font-size: 1.8em; /* Título principal ainda menor */
+                font-size: 1.8em; /* Título principal bem menor */
             }
-
             h2 {
-                font-size: 1.4em;
+                font-size: 1.5em; /* Subtítulos menores */
             }
-
             h3 {
-                font-size: 1.2em;
+                font-size: 1.3em; /* Outros títulos menores */
             }
-
             p {
-                font-size: 0.95em; /* Fonte de parágrafo um pouco menor */
+                font-size: 1em; /* Fonte do parágrafo menor */
+                text-align: left; /* Alinhamento à esquerda pode ser mais legível em telas pequenas */
             }
-
             .emoji {
-                font-size: 1.2em;
+                font-size: 1.2em; /* Emojis menores */
             }
-
+            .cta-button {
+                font-size: 1em; /* Botão com fonte menor */
+                padding: 10px 20px; /* Botão um pouco menor */
+                width: 100%; /* Botão ocupa a largura total */
+                box-sizing: border-box; /* Para que padding e border não afetem a largura total */
+            }
             .section-organ,
             .section-tissue {
-                padding: 15px;
-                border-left-width: 5px; /* Borda mais fina */
-            }
-
-            .cta-button {
-                padding: 8px 15px;
-                font-size: 0.9em;
-            }
-
-            .footer {
-                margin-top: 25px;
-                font-size: 0.8em;
+                padding: 15px; /* Padding menor nas seções */
+                margin-bottom: 20px; /* Margem menor entre seções */
             }
         }
     </style>
