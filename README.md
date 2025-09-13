@@ -14,6 +14,7 @@
       background: linear-gradient(rgba(224, 247, 250, 0.95), rgba(224, 247, 250, 0.95)),
                   url('https://images.unsplash.com/photo-1507537528715-e72538d1e667?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center;
       background-size: cover;
+      background-attachment: scroll; /* Evita bug no celular */
     }
 
     .container {
@@ -79,15 +80,16 @@
       display: block;
       background: #4CAF50;
       color: #fff;
-      padding: 12px;
+      padding: 14px;
       border-radius: 25px;
       font-size: 1em;
       font-weight: bold;
       text-align: center;
       margin: 15px auto 0 auto;
-      width: 100%;
-      max-width: 350px;
+      width: 100%;  /* ocupa toda largura no mobile */
+      max-width: 400px; /* no PC fica centralizado */
       transition: background 0.3s ease;
+      box-sizing: border-box;
     }
 
     .cta-button:hover {
@@ -103,9 +105,6 @@
 
     /* Ajustes específicos para celular */
     @media (max-width: 600px) {
-      body {
-        background-attachment: scroll;
-      }
       .container {
         margin: 10px;
         padding: 15px;
@@ -115,9 +114,6 @@
       }
       h2 {
         font-size: 1.3em;
-      }
-      h3 {
-        font-size: 1.1em;
       }
       p {
         font-size: 0.95em;
