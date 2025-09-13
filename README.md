@@ -117,7 +117,7 @@
             O transplante de órgãos é um procedimento cirúrgico que consiste em substituir um órgão doente ou em falência por um órgão saudável de um doador, seja ele vivo ou falecido. Esse procedimento é a única esperança de vida ou de melhoria da qualidade de vida para milhares de pacientes com doenças crônicas em estágio terminal, como insuficiência renal, hepática ou cardíaca. O sucesso do transplante depende de uma rigorosa compatibilidade entre doador e receptor, além do uso de medicamentos imunossupressores para evitar a rejeição do novo órgão pelo corpo do paciente.
         </p>
         <p align="center">
-            <a href="variedades.md" class="cta-button">
+            <a href="variedades.html" class="cta-button">
                 <span class="emoji">➡️</span> Descubra a Variedade de Transplantes <span class="emoji">⬅️</span>
             </a>
         </p>
