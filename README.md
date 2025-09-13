@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Transplante</title>
+  <title>Doação e Transplante de Órgãos</title>
   <style>
     body {
       margin: 0;
@@ -26,7 +26,7 @@
     }
 
     section {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 20px auto;
       padding: 20px;
       border-radius: 15px;
@@ -75,6 +75,14 @@
       background: #125a9c;
     }
 
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #1976d2;
+      color: white;
+      margin-top: 20px;
+    }
+
     /* Responsividade */
     @media (max-width: 600px) {
       header h1 {
@@ -98,18 +106,64 @@
 <body>
 
   <header>
-    <h1>💖 Transplante e Doação de Órgãos</h1>
+    <h1>💖 Doação e Transplante de Órgãos</h1>
   </header>
 
+  <!-- Seção: O que é -->
   <section>
     <h2><span>🌟</span>O que é?</h2>
     <div class="card">
       <p>
-        O transplante de órgãos é um procedimento médico que consiste em substituir um órgão doente ou com falha por um órgão saudável de um doador, seja ele vivo ou falecido. Esse procedimento pode salvar vidas e melhorar a qualidade de vida para milhares de pacientes que sofrem de insuficiência renal, hepática ou cardíaca.
+        O transplante de órgãos é um procedimento médico que substitui um órgão doente ou em falha por um órgão saudável de um doador, seja ele vivo ou falecido. Esse procedimento salva vidas e melhora a qualidade de vida de milhares de pacientes.
       </p>
-      <a href="#" class="btn">Saiba mais ➝</a>
     </div>
   </section>
+
+  <!-- Seção: Importância -->
+  <section>
+    <h2><span>❤️</span>Por que é importante?</h2>
+    <div class="card">
+      <p>
+        A doação de órgãos é um ato de solidariedade que pode transformar a vida de muitas pessoas. Um único doador pode salvar até oito vidas e melhorar a qualidade de muitas outras por meio da doação de tecidos.
+      </p>
+    </div>
+  </section>
+
+  <!-- Seção: Como funciona -->
+  <section>
+    <h2><span>⚕️</span>Como funciona?</h2>
+    <div class="card">
+      <p>
+        O processo de transplante envolve avaliação médica, compatibilidade entre doador e receptor, retirada do órgão e cirurgia de transplante. No Brasil, a doação só acontece com autorização da família do doador.
+      </p>
+      <a href="https://www.gov.br/saude/pt-br" class="btn">Saiba mais no site oficial</a>
+    </div>
+  </section>
+
+  <!-- Seção: Legislação -->
+  <section>
+    <h2><span>📜</span>Aspectos Legais</h2>
+    <div class="card">
+      <p>
+        No Brasil, a doação de órgãos é regulamentada pela Lei nº 9.434/1997. A retirada de órgãos só pode ser realizada após diagnóstico de morte encefálica e autorização familiar.
+      </p>
+    </div>
+  </section>
+
+  <!-- Seção: Prevenção -->
+  <section>
+    <h2><span>🏥</span>Prevenção e Conscientização</h2>
+    <div class="card">
+      <p>
+        Conversar com a família sobre o desejo de ser doador é essencial. Além disso, campanhas educativas ajudam a conscientizar sobre a importância da doação e incentivam novos doadores.
+      </p>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    Desenvolvido para fins educativos 💙
+  </footer>
 
 </body>
 </html>
